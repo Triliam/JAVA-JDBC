@@ -5,11 +5,9 @@ Projeto Java com JDBC - CRUD
 Acesso a banco de dados com JDBC.
 
 
-Objetivo geral:
+ Principais recursos do JDBC na teoria e prática.
 
- Conhecer os principais recursos do JDBC na teoria e prática.
-
- Elaborar a estrutura básica de um projeto com JDBC.
+ Estrutura básica de um projeto com JDBC.
 
 
 JDBC (Java Database Connectivity): API padrão do Java para acesso a dados.
@@ -36,9 +34,9 @@ Criado exceção personalizada;
 Criado metodos auxiliares para obter e fechar uma conexão com o banco;
 
 
- -Metodo para criar fluxo de entrada e ler o arquivo;
+ -Método para criar fluxo de entrada e ler o arquivo;
  
- -Metodo para executar SQL, gerenciar o driver JDBC e fazer conexão com o banco;
+ -Método para executar SQL, gerenciar o driver JDBC e fazer conexão com o banco;
 
 <br>
 
@@ -58,13 +56,13 @@ Conceito de integridade referencial, cascata.
 
 Transação 
 
-Manter a consistencia do banco de dados:
+Manter a consistência do banco de dados:
 
-Atomica: acontece por inteiro ou nada;
+Atômica: acontece por inteiro ou nada;
 
-Consistente: Começa e termina;
+Consistênte: Começa e termina;
 
 Isolada: Precisa estar e acontecer isolada de outras transações;
 
-Duravel: Não pode ser  reversivel.
+Durável: Não pode ser reversível.
 
